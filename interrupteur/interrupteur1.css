@@ -1,0 +1,29 @@
+.lampe {
+    width: 300px;
+    height: 400px;
+    margin-top: 0px;
+    float: right;
+}
+
+.interrupteur {
+    width: 100px;
+    height: 100px;
+    margin: auto;
+}
+
+#block1 {
+    width: 600px;
+    height: 600px;
+    float: right;
+}
+
+#block2 {
+    width: 100px;
+    height: 100px;
+    float: left;
+}
+
+body {
+    background-image: url(s.jpg);
+    background-size: cover;
+}

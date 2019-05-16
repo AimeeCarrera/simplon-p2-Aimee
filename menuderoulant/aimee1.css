@@ -1,0 +1,116 @@
+.simplonimg {
+    width: 1150px;
+    height: 1000px;
+    float: right;
+    margin-top: 20px;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+}
+
+#sidebar {
+    position: fixed;
+    width: 145px;
+    height: 100%;
+    background: rgb(201, 45, 53);
+    left: -145px;
+    transition: all 500ms linear;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+#sidebar ul li {
+    color: black;
+    list-style: none;
+    padding: 15px 10px;
+    border-bottom: 1px solid rgba(100, 100, 100, 0.4);
+    position: relative;
+}
+
+#sidebar .toggle-button {
+    position: absolute;
+    left: 150px;
+    top: 0;
+    margin-top: 0px;
+}
+
+#sidebar .toggle-button {
+    display: block;
+    width: 30px;
+    height: 30px;
+    margin: 3px 0px;
+    background: rgb(201, 45, 53);
+    border-radius: 10px;
+    z-index: 99;
+}
+
+#sidebar.active {
+    left: 0;
+}
+
+#image {
+    width: 60%;
+    height: 100px;
+    float: left;
+}
+
+#entete {
+    width: 1350px;
+    height: 30px;
+}
+
+#espace_connexion {
+    width: 40%;
+    height: 100px;
+    float: right;
+}
+
+.simplon1 {
+    width: 400px;
+    height: 120px;
+    margin-left: 100px;
+    margin-top: -30px;
+}
+
+.form {
+    width: 150px;
+}
+
+#sidebar ul {
+    margin: 0px;
+    padding: 0px;
+}
+
+.sousmenu {
+    display: none;
+}
+
+#sidebar ul::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+#sidebar li:hover .sousmenu {
+    display: inline-block;
+    position: absolute;
+    top: 100%;
+    left: 0px;
+    padding: 0px;
+    z-index: 1000;
+}
+
+.sousmenu li {
+    border-bottom: 1px solid #cccccc;
+}
+
+.sousmenu li a {
+    padding: 15px 30px;
+    font-size: 13px;
+    columns: #222522;
+    width: 270px;
+}
