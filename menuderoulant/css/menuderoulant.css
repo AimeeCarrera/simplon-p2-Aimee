@@ -1,0 +1,158 @@
+.simplonimg {
+    width: 1150px;
+    height: 1000px;
+    float: right;
+    margin-top: 20px;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+    font-family: bold 12px/20px sans-serif;
+    font-size: 12px;
+    list-style: none;
+    text-decoration: none;
+}
+
+ul a {
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+#sidebar {
+    position: fixed;
+    width: 145px;
+    height: 100%;
+    background: #C21448;
+    left: -145px;
+    transition: all 500ms linear;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+#sidebar ul li {
+    color: black;
+    list-style: none;
+    padding: 15px 10px;
+    border-bottom: 1px solid rgba(100, 100, 100, 0.4);
+    position: relative;
+}
+
+#sidebar .toggle-button {
+    position: absolute;
+    left: 150px;
+    top: 0;
+    margin-top: 0px;
+}
+
+#sidebar .toggle-button {
+    display: block;
+    width: 30px;
+    height: 30px;
+    margin: 3px 0px;
+    background: rgb(201, 45, 53);
+    border-radius: 10px;
+    z-index: 99;
+}
+
+#sidebar.active {
+    left: 0;
+}
+
+#image {
+    width: 60%;
+    height: 100px;
+    float: left;
+}
+
+#entete {
+    width: 1350px;
+    height: 30px;
+}
+
+.simplon1 {
+    width: 400px;
+    height: 120px;
+    margin-left: 4px;
+    margin-top: -20px;
+}
+
+.form {
+    width: 150px;
+}
+
+#sidebar ul {
+    margin: 0px;
+    padding: 0px;
+}
+
+.menuderoulant ul,
+.menuderoulant li {
+    margin: 0;
+    padding: 0;
+}
+
+.menuderoulant ul {
+    list-style: none;
+    width: 100%;
+}
+
+.menuderoulant li {
+    float: left;
+    position: relative;
+    width: auto;
+}
+
+.menuderoulant a {
+    background: #FFFFFF;
+    color: black;
+    display: block;
+    font: bold 12px/20px sans-serif;
+    padding: 10px 25px;
+    text-align: center;
+    text-decoration: none;
+    -webkit-transition: all .25s ease;
+    -moz-transition: all .25s ease;
+    -ms-transition: all .25s ease;
+    -o-transition: all .25s ease;
+    transition: .25s ease;
+}
+
+.menuderoulant li:hover a {
+    background: #c21448;
+}
+
+#sousmenu1 {
+    left: 0;
+    opacity: 0;
+    position: absolute;
+    top: 35px;
+    visibility: visible;
+    z-index: 1;
+}
+
+li:hover ul#sousmenu1 {
+    opacity: 1;
+    top: 40px;
+    visibility: visible;
+}
+
+#sousmenu1 li {
+    float: none;
+    width: 100px;
+}
+
+#sousmenu1 a:hover {
+    background-color: rgb(51, 42, 42);
+}
+
+#sousmenu1 a {
+    background-color: #c21448;
+}
+
+#menu {
+    width: 40%;
+    height: 100px;
+    float: right;
+    margin-top: 27px;
+}
